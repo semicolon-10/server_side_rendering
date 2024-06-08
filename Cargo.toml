@@ -1,0 +1,10 @@
+[package]
+name = "rust-backyard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+serde = {version = "1.0.203", features = ["derive"]}
+tokio = {version = "1.38.0", features = ["full"]}
+askama = "0.12.1"
